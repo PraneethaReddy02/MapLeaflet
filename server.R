@@ -129,4 +129,4 @@ server <- function(input, output, session) {
   })
 }
 
-shinyApp(ui = ui, server = server)
+# Do NOT call shinyApp() here in a multi-file app.
